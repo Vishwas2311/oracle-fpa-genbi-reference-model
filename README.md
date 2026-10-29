@@ -6,10 +6,12 @@ Download [Oracle_FPA_team_package_by_folder.zip](Oracle_FPA_team_package_by_fold
 
 | Folder | Intended audience | Contents |
 |---|---|---|
-| 01_team_review | Finance, FP&A and stakeholders | Single guide, candidate policies, pending confirmations and final review |
+| 01_team_review | Finance, FP&A and stakeholders | Four-slide leadership presentation, single guide, candidate policies, pending confirmations and final review |
 | 02_engineering_implementation | Architects, Oracle DBAs and developers | Proposed model, dictionary, relationships, SQL, configuration and contracts |
 | 03_validation_and_tests | QA, finance control and security reviewers | Frozen synthetic fixtures, expected results, test runners and observed evidence |
 | 04_complete_reference | Model owners and data stewards | Complete technical files and extracted reference-workbook evidence |
+
+The leadership presentation is inside `01_team_review/Oracle_FPA_GenBI_confirmations_updated.pptx`. Slide 3 contains the simplified confirmation table and accountable teams.
 
 ## Current status
 
