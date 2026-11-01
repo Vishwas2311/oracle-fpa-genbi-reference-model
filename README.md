@@ -1,6 +1,6 @@
 # Proposed Oracle FP&A and GenBI reference model
 
-Correction release: reference-2026-11-01-02. Internal contract version: 2. Proposed, not production approved.
+Correction release: reference-2026-11-01-02. Internal contract version: 2. Delivery consistency revision: 2. Proposed, not production approved.
 
 Download [the organized ZIP](Oracle_FPA_team_package_by_folder.zip), extract it and read START_HERE.md. SHA256SUMS records its checksum. RELEASE_NOTES.md inside the ZIP explains the audit corrections and breaking schema changes.
 
@@ -12,6 +12,10 @@ Download [the organized ZIP](Oracle_FPA_team_package_by_folder.zip), extract it 
 | 04_complete_reference | Model owners and stewards | Full technical snapshot and extracted workbook evidence |
 
 The presentation is `01_team_review/Oracle_FPA_GenBI_leadership_brief.pptx`. It retains four slides, including the simplified confirmation table on slide 3.
+
+## Delivery consistency revision
+
+Generated requirement notes now use current model counts. The remaining-work register distinguishes supported offline admission from unfinished loader/native publication integration. Slide 4 explicitly labels the GenBI architecture as proposed. Run test_delivery_consistency.py from 04_complete_reference; add --archive pointing to the downloaded ZIP to check every inventory entry, duplicate folder file, one-line index, guide and PPT claim. Historical reviews retain their original counts under explicit historical notices.
 
 ## Corrections and scope
 
